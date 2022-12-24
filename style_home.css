@@ -1,0 +1,147 @@
+/*encabezado y menu*/
+header{
+    background: #bbbbbb;
+    padding: 20px;
+}
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+h1 {
+    position: relative;
+    left: 100px;
+}
+nav {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+nav a:active{
+    color: rgb(30, 145, 36);
+}
+
+/*cuerpo de la pagina*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#cccccc, #bbbbbb, #444444 , #222222);
+}
+
+.banner{
+    width: 100%;
+}
+.titulos{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear: left;
+    padding: 1em 0;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 10px;
+}
+.texto{
+    width: 640px;
+    text-align: left;
+    margin: 0 auto;
+}
+.texto p{
+    margin: 3em 0;
+}
+.principal strong{
+    font-weight: bold;
+}
+.mision{
+    font-style: italic;
+}
+
+.map{
+    width: 640px;
+    margin: 0 auto;
+    padding: 3em;
+    
+}
+.map p{
+    width: 640px;
+    margin: 0 auto 20px;
+    text-align: center;
+    
+}
+.map iframe{
+    box-shadow: 10px 10px 30px 20px #4a4a4a;
+}
+.diferenciales{
+    color: #dddddd;
+    padding: 3em 0;
+}
+.diferenciales_lista{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.diferenciales_contenido{
+    width: 640px;
+    margin: 0 auto;
+}
+.items{
+    line-height: 1.5;
+    margin: 0 15px 15px 0;
+}
+.items:first-child{
+    font-weight: bold;
+}
+.items:before{
+    content: "★";
+    margin: 0 5px;
+}
+
+.diferenciales_imagen{
+    width: 60%;
+    box-shadow: 10px 10px 30px 20px #222222;
+}
+.diferenciales_imagen:hover{
+    opacity: 0.7;
+    transition: 400ms;
+}
+.video{
+    width: 640px;
+    margin: 3em auto;
+    box-shadow: 10px 10px 30px 20px #222222;
+}
+
+/*pie de pagina*/
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 25px 0;
+}
+.copyright{
+
+    color: white;
+    font-size: 12px;
+}
+@media screen and (max-width:480px) {
+    .map p{
+        width: auto;
+        font-size: 100px;
+    }
+    
+}

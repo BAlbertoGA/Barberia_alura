@@ -1,0 +1,120 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #bbbbbb;
+    padding: 20px;
+}
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+h1 {
+    position: relative;
+    left: 100px;
+}
+nav {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+nav a:active{
+    color: rgb(30, 145, 36);
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+form {
+    margin: 40px 0;
+    
+}
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+.input_padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    
+}
+.contacto_medio {
+    margin: 20px 0;
+    
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    margin: 20px 0;
+    width: 40%;
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    background-color: #c78c19;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.enviar:hover {
+    scale: 120%;
+    color: green;
+    background-color: #dd9c1b;
+}
+.enviar:active {
+    transition: 0s;
+    color: #cccc;
+    background-color: green;
+    transform: rotate(360deg);
+}
+table{
+    margin: 40px 40px;
+}
+thead {
+    background: #555555;
+    font-weight: bold;
+    color: white;
+}
+tbody{
+    background: lightgray;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 25px;
+}
+.copyright{
+
+    color: white;
+    font-size: 12px;
+}
